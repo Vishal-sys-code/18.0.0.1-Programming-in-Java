@@ -1,4 +1,4 @@
-package Question1;
+package Solutions.Question1;
 import java.util.*;
 
 class Box{
