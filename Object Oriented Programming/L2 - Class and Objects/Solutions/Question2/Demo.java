@@ -1,4 +1,4 @@
-package Question2;
+package Solutions.Question2;
 import java.util.*;
 
 class Bank_Account{
