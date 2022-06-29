@@ -317,3 +317,41 @@ class Enquiry{
 
 - Constructor names are same but the arguments are different.
 - We can make number or multiples of the constructor inside the same class.
+
+### Copy Constructor
+When wver we pass object reference to the constructor then it is called copy constructor.
+
+Syntax: 
+```
+class className{
+    className(obj ref){
+
+    }
+}
+```
+
+Program Example: 
+
+```
+class A{
+    int a; 
+    String s;
+    A(){
+        a = 10;
+        s = "ecernwala";
+        System.out.println(a + " " + b);
+    }
+    A(A ref){
+        a = ref.a;
+        b = ref.s;
+        System.out.println(a + " " + b);
+    }
+}
+
+class copyConstructor {
+    public static void main(String[] args){
+        A r = new A();
+        A r1 = new A(r);
+    }
+}
+```
