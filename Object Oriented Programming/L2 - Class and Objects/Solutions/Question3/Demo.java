@@ -1,4 +1,4 @@
-package Question3;
+package Solutions.Question3;
 
 class Box{
     double length;
