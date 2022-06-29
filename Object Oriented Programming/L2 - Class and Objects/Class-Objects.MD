@@ -339,19 +339,23 @@ class A{
     A(){
         a = 10;
         s = "ecernwala";
-        System.out.println(a + " " + b);
+        System.out.println(a + " " + s);
     }
     A(A ref){
         a = ref.a;
-        b = ref.s;
-        System.out.println(a + " " + b);
+        s = ref.s;
+        System.out.println(a + " " + s);
+    }
+    public void display(){
+        System.out.println("Copy Constructor");
     }
 }
 
 class copyConstructor {
     public static void main(String[] args){
         A r = new A();
-        A r1 = new A(r);
+        A r2 = new A(r);
+        r2.display();
     }
 }
 ```
