@@ -177,8 +177,59 @@ It is a combination of more than one types of inheritances.
 
 We can achieve thorugh Java Classes.
 
-**UPDATE**
+**UPDATE WITH IMAGES**
 
+```
+         C
+         ↑
+         |
+  ---------------
+  ↑             ↑
+  |             |
+  A             B
+  ↑
+  |
+  D
+```
+Explanation : <br>
+Class A and B extends class C → Hierarchical inheritance <br>
+Class D extends class A → Single inheritance
+
+```
+class C{
+   public void disp(){
+	System.out.println("C");
+   }
+}
+
+class A extends C{
+   public void disp(){
+	System.out.println("A");
+   }
+}
+
+class B extends C{
+   public void disp(){
+	System.out.println("B");
+   }
+}
+
+class D extends A{
+   public void disp(){
+	System.out.println("D");
+   }
+   public static void main(String args[]){
+	D obj = new D();
+	obj.disp();
+   }
+}
+```
+
+```Output: ```<br>
+D
+
+<br>
+<hr>
 
 **Why there is no hybrid inheritance in java?** <br>
 
@@ -193,3 +244,4 @@ Java supports hybrid inheritance. However, Java doesn't support Multiple Inherit
 ```
 Java is a highly secured programming language. Pointers provide direct access to a memory address, and an arbitrary memory location can be accessed, and read and write operations can be performed on it. For the purpose of security Java does not support Pointers.
 ```
+
