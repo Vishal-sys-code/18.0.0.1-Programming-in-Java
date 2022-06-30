@@ -91,3 +91,42 @@ class Test{
 ```Output:``` <br>
 Eating <br>
 Barking
+
+## Multi-level Inheritance
+
+When there is a chain of Inheritance is called Multi-level Inheritance.
+
+```
+class Animal{
+    public void eat(){
+        System.out.println("Eating");
+    }
+}
+
+class Lion extends Animal{
+    public void roar(){
+        System.out.println("Roaring");
+    }
+}
+
+class Cub extends Lion{
+    public void weep(){
+        System.out.println("Weeping");
+    }
+}
+
+class multilevelinheritance{
+    public static void main(String[] args){
+        Cub Simba = new Cub();
+        Simba.eat();
+        Simba.roar();
+        Simba.weep();
+    }
+}
+```
+
+```Output:``` <br>
+Eating<br>
+Roaring<br>
+Weeping<br>
+
