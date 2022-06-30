@@ -60,4 +60,5 @@ Here Dog ```IS-A``` relationship with Animal.
 * Multiple Inheritance.
 * Hierarchial Inheritance.
 
+## Single Inheritance
 
