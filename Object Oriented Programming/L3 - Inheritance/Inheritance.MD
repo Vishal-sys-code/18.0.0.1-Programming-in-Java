@@ -244,4 +244,6 @@ Java supports hybrid inheritance. However, Java doesn't support Multiple Inherit
 ```
 Java is a highly secured programming language. Pointers provide direct access to a memory address, and an arbitrary memory location can be accessed, and read and write operations can be performed on it. For the purpose of security Java does not support Pointers.
 ```
+<hr>
+
 
