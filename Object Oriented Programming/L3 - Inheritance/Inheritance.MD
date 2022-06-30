@@ -60,7 +60,7 @@ Here Dog ```IS-A``` relationship with Animal.
 * Multiple Inheritance.
 * Hierarchial Inheritance.
 
-**On the basis of classification Java supports only 3 inheritances Single, Multi-level, Hybrid and the other two Multiple and Hierarchial is been supported by interface only.**
+**On the basis of classification Java supports only 3 inheritances Single, Multi-level, Hierarchial and the other two Multiple and Hybrid is been supported by interface only.**
 
 ## Single Inheritance
 
@@ -130,3 +130,10 @@ Eating<br>
 Roaring<br>
 Weeping<br>
 
+## Hierarchial Inheritance
+
+When two or more classes inherits a single class is called Hierarchial Inheritance.
+
+```
+
+```
