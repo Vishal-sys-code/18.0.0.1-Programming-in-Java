@@ -162,3 +162,34 @@ class hierarchialinheritance{
     }
 }
 ```
+
+**Multiple and Hybrid Inheritance can't be achieved by the Java classes it can only be possible by the Java interfaces.**
+
+## Multiple Inheritance
+
+When a class can inherit more than one classes. <br>
+
+In java it means a class cannot extend more than one classes.However, a class can implement more than one or more interfaces from which we can get rid of the impossibility of the Multiple Inheritance.
+
+## Hybrid Inheritance
+
+It is a combination of more than one types of inheritances. 
+
+We can achieve thorugh Java Classes.
+
+**UPDATE**
+
+
+**Why there is no hybrid inheritance in java?** <br>
+
+```
+Java supports hybrid inheritance. However, Java doesn't support Multiple Inheritance classes, so in order to achieve hybrid inheritance, multiple inheritances with classes should not be used. Multiple Inheritance with Interfaces is possible.
+```
+
+<br>
+
+**Why pointers are not used in Java** <br>
+
+```
+Java is a highly secured programming language. Pointers provide direct access to a memory address, and an arbitrary memory location can be accessed, and read and write operations can be performed on it. For the purpose of security Java does not support Pointers.
+```
