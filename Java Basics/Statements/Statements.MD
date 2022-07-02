@@ -96,3 +96,35 @@ for(initialization; condition; increment/decrement){
 ```
 
 <hr>
+
+**Syntax for for-each-loop :**
+
+```
+for(data_type var : array_name/collection_name){
+    //code
+}
+```
+
+<hr>
+
+**Syntax for while-loop :**
+
+```
+while (condition){    
+    //code to be executed   
+    //Increment / Decrement statement  
+}  
+```
+
+<hr>
+
+**Syntax for do-while-loop :**
+
+```
+do{    
+    //code to be executed / loop body  
+    //update statement   
+}while (condition);    
+```
+
+<hr>
