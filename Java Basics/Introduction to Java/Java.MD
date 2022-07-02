@@ -111,5 +111,7 @@ Class File ---------> Class Loader ---------> Byte Code Verifier ---------> Inte
 
 ![Archtecture](/Java%20Basics/Introduction%20to%20Java/images/Architecture.png)
 
+```If you can't see in dark mode then please switch that because the arrows are been drawn in black :)```
+
 <br>
 <hr>
