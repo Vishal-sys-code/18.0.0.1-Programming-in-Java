@@ -66,12 +66,6 @@ It is a software development environment which is used to develop java applicati
 _Java is not interacted with the hardware._ 
 
 
-**RUNTIME PROCESS :**
-
-```
-Class File ---------> Class Loader ---------> Byte Code Verifier ---------> Interpreter ---------> Run Time ---------> Hardware
-```
-
 <p><b>Simple Syntax of Java: </b></p>
 
 ```
@@ -80,4 +74,26 @@ class Syntax{
         System.out.println("Hello!!!");
     }
 }
+```
+
+**Every meaning in the syntax:**
+
+```class: ```It is used to declare a class in Java. <br>
+
+```public: ``` It is an access modifier that represents visibility.<br>
+
+```void: ``` It is the return type of the method. It doesn't return any value.
+
+```main: ``` It represents the starting point of the program.
+
+```static: ``` If we declare any method as static it is known as the static keyword. <br>The core advantage of the static method is that there is no need to create an object to invoke the static method.
+<br> The main() method is executed in JVM so it doesn't need to creating the object and invoke in the main() method. So it saves the memory.
+
+<br>
+
+
+**RUNTIME PROCESS :**
+
+```
+Class File ---------> Class Loader ---------> Byte Code Verifier ---------> Interpreter ---------> Run Time ---------> Hardware
 ```
