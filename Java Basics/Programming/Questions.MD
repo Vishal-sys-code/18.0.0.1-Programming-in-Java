@@ -23,4 +23,3 @@
 * Find the sum of N natural Numbers
 
 <hr>
-
