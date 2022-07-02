@@ -106,3 +106,10 @@ Class File ---------> Class Loader ---------> Byte Code Verifier ---------> Inte
 ```Interpreter: ``` Read the bytecode stream then execute the instructions.
 
 <br>
+
+**JVM Architecture**
+
+![Archtecture](/Java%20Basics/Introduction%20to%20Java/images/Architecture.png)
+
+<br>
+
