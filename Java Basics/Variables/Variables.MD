@@ -51,3 +51,8 @@ Static variables are created when the program starts and ends when the programs 
 * Variable names are case-sensitive.
 * There is no limit on the length of a variable name but by convention, it should be between 4 to 15 chars.
 * Variable names always should exist on the left-hand side of assignment operators.
+
+**Syntax:**
+```
+data _type variable_name = value;
+```
