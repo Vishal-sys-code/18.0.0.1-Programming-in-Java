@@ -97,3 +97,12 @@ class Syntax{
 ```
 Class File ---------> Class Loader ---------> Byte Code Verifier ---------> Interpreter ---------> Run Time ---------> Hardware
 ```
+<br>
+
+```ClassLoader: ```It is the subsystem of JVM that is used to load class files.
+
+```ByteCode Verifier: ``` Checks the code fragment for illegal code that can violate access right to objects.
+
+```Interpreter: ``` Read the bytecode stream then execute the instructions.
+
+<br>
