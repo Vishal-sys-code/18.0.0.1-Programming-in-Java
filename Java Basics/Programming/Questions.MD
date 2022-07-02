@@ -5,6 +5,7 @@
 * Palindrome Number [Iterative + Recursion] {Different Approches}
 * Armstrong Number [Iterative + Recursion]
 * ASCII value 
+* Factorial
 
 <hr>
 
