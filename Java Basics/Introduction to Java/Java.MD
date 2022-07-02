@@ -112,4 +112,4 @@ Class File ---------> Class Loader ---------> Byte Code Verifier ---------> Inte
 ![Archtecture](/Java%20Basics/Introduction%20to%20Java/images/Architecture.png)
 
 <br>
-
+<hr>
