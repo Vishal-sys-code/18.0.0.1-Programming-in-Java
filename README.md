@@ -45,4 +45,4 @@ Pull request Merging (Privacy Policy):
 <br>
 
 ## Authors and Editors
-<!-- Vishal Pandey : <a href = "vishal-sys-code.github.io">vishalpandey.com</a> -->
+Vishal Pandey : <a href = "vishal-sys-code.github.io">vishalpandey.com</a>
